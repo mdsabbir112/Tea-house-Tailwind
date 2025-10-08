@@ -39,9 +39,9 @@
   </head>
   <body class="mabrope-font bg-[#F4F4F4]">
     <!-- header section -->
-    <header class="max-w-screen-xl mx-auto">
+    <header class="max-w-screen-xl mx-auto mb-32">
       <!-- Hero section/ Landing page -->
-      <div class="flex justify-between pt-16">
+      <div class="flex justify-between flex-col md:flex-row pt-16 pl-2 md:pl-0">
         <div>
           <h1 class="text-7xl font-bold text-[#1C1C1C] mb-7">
             It's good <br />
@@ -55,7 +55,8 @@
           <button
             class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white rounded-xl p-4 font-bold text-xl"
           >
-            Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+            Explore More
+            <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
           </button>
         </div>
         <!-- Image Section -->
@@ -63,11 +64,17 @@
           <div class="w-full">
             <img class="w-full" src="./images/banner.png" alt="Banner Image" />
           </div>
-          <div class="relative w-64 -top-24 left-16 px-7 py-4  bg-white flex items-center gap-2 shadow-xl rounded-xl ">
-            <div><i class="fa-solid fa-star text-[#FFC850] text-4xl top-28"></i></div>
+          <div
+            class="relative w-64 -top-24 left-16 px-7 py-4 bg-white flex items-center gap-2 shadow-xl rounded-xl"
+          >
+            <div>
+              <i class="fa-solid fa-star text-[#FFC850] text-4xl top-28"></i>
+            </div>
             <div>
               <h1 class="font-bold text-3xl text-[#1C1C1C]">5.00</h1>
-              <p class="text-[#777777] font-semibold text-base">Trust Pilot Ratings</p>
+              <p class="text-[#777777] font-semibold text-base">
+                Trust Pilot Ratings
+              </p>
             </div>
           </div>
         </div>
@@ -75,7 +82,47 @@
       </div>
     </header>
     <!-- Main Section -->
-    <main class="max-w-screen-xl mx-auto"></main>
+    <main class="max-w-screen-xl mx-auto">
+      <!-- cards section -->
+
+      <section>
+        <div class="mb-32">
+          <h2 class="max-w-xl mx-auto text-center mb-5 font-extrabold text-5xl text-[#1C1C1C]">Our Featured Products</h2>
+          <p class="text-center max-w-screen-lg mx-auto w-8/12 font-medium text-base text[#777777] mb-12">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <!-- main card are work from there  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="text-center border-none shadow-[0_0_15px_rgba(0,0,0,0.35)] rounded-2xl bg-gradient-to-r from-[rgba(244,244,244,1)] to-[rgba(244,244,244)]">
+            <div><img class="mb-7 mx-auto mt-7" src="./images/tea-1.png" alt="Tea-1" /> </div>
+            <h3 class="font-bold text-2xl text-[#1C1C1C]">Milk Tea</h3>
+            <p class="mx-7 mb-7 mt-2 text-[#777777] font-semibold text-base ">Creamer could be replaced by fresh milk</p>
+            </div>
+            <!-- secound Card -->
+             <div class="text-center shadow-[0_0_15px_rgba(0,0,0,0.35)] rounded-2xl bg-gradient-to-r from-[rgba(244,244,244,1)] to-[rgba(244,244,244)]">
+            <div><img class="mb-7 mx-auto mt-7" src="./images/tea-2.png" alt="Tea-1" /> </div>
+            <h3 class="font-bold text-2xl text-[#1C1C1C]">Black Tea</h3>
+            <p class="mx-7 mb-7 mt-2 text-[#777777] font-semibold text-base ">Creamer could be replaced by fresh milk</p>
+            </div>
+            <!-- Third Card  -->
+             <div class="text-center shadow-[0_0_15px_rgba(0,0,0,0.35)] rounded-2xl bg-gradient-to-r from-[rgba(244,244,244,1)] to-[rgba(244,244,244)]">
+            <div><img class="mb-7 mx-auto mt-7" src="./images/tea-3.png" alt="Tea-1" /> </div>
+            <h3 class="font-bold text-2xl text-[#1C1C1C]">Lemon Tea</h3>
+            <p class="mx-7 mb-7 mt-2 text-[#777777] font-semibold text-base ">Creamer could be replaced by fresh milk</p>
+            </div>
+            <!-- Fourth Card -->
+             <div class="text-center shadow-[0_0_15px_rgba(0,0,0,0.35)] rounded-2xl bg-gradient-to-r from-[rgba(244,244,244,1)] to-[rgba(244,244,244)]">
+            <div><img class="mb-7 mx-auto mt-7" src="./images/tea-4.png" alt="Tea-1" /> </div>
+            <h3 class="font-bold text-2xl text-[#1C1C1C]">Green Tea</h3>
+            <p class="mx-7 mb-7 mt-2 text-[#777777] font-semibold text-base ">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer Section -->
     <footer></footer>
   </body>
